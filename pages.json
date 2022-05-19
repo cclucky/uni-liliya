@@ -1,0 +1,77 @@
+{
+	"pages": [{
+            "path" : "pages/Home/Home",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "首页",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/care/care",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "分类",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/car/car",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "购物车",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/my",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "亚米秀",
+		"navigationBarBackgroundColor": "#00aaff",
+		"backgroundColor": "#ff0533",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"tabBar":{
+		"selectedColor":"#FF5A5F",
+		"list":[
+			{
+				"pagePath":"pages/Home/Home",
+				"text":"首页",
+				"iconPath":"static/tab_icons/home.png",
+				"selectedIconPath":"static/tab_icons/Home-acrive.png"
+			},
+			{
+				"pagePath":"pages/care/care",
+				"text":"分类",
+				"iconPath":"static/tab_icons/cate.png",
+				"selectedIconPath":"static/tab_icons/cate-acrive.png"
+			},
+			{
+				"pagePath":"pages/car/car",
+				"text":"购物车",
+				"iconPath":"static/tab_icons/cart.png",
+				"selectedIconPath":"static/tab_icons/car-acrive.png"
+			},
+			{
+				"pagePath":"pages/my/my",
+				"text":"我的",
+				"iconPath":"static/tab_icons/my.png",
+				"selectedIconPath":"static/tab_icons/My-acrive.png"
+			}
+		]
+	}
+}
