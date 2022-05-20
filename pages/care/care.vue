@@ -1,5 +1,6 @@
 <template>
 	<view>
+		<my-search @click.native="searchBoxHandler"></my-search>
 		<view class="scroll-view-container">
 		      <!-- 左侧的滚动视图区域 -->
 		      <scroll-view class="left-scroll-view" scroll-y :style="{height:wh + 'px'}">
@@ -57,6 +58,11 @@
 			gotoGoodsList(item1){
 				uni.navigateTo({
 					url:`/subpkg/goods_list/goods_list?cid=${item1.cat_id}`
+				})
+			},
+			searchBoxHandler(){
+				uni.navigateTo({
+					url:`/subpkg/search/search`
 				})
 			}
 		}
