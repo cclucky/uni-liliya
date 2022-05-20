@@ -42,7 +42,7 @@
 				floorList: []
 			};
 		},
-		mounted() {
+		onLoad() {
 			this.getSwiperList();
 			this.getNavList()
 			this.getFloorList()
